@@ -80,7 +80,7 @@ int main()
 
     if (player1.PlayerHealth<=0)
         printf("You killed %s you stupid ni--\n", player1.PlayerName);
-    else
+    else if (my_health<=0)
         printf("You lost you stupid bitch!\n");
 
     return 0;
