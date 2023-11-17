@@ -60,7 +60,7 @@ int main()
             printf("You healed by 25 health points!\n");
         }
 
-        else if (affirm_kill=='d');
+        else if (affirm_kill=='d')
         {
             damage_scope = damage_scope+damage_buff;
 
